@@ -11,9 +11,11 @@ public class Grader {
         else if (numberGrade < 70) {
             return 'D';
         }
+            
         else if (numberGrade < 80) {
             return 'C';
         }
+            
         else if (numberGrade < 90) {
             return 'B';
         }
