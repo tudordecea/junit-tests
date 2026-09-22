@@ -13,6 +13,7 @@ public class GraderTest {
         assertEquals('F',grader.determineLetterGrade(59));
     }
 
+    
     @Test
     public void sixtyNineShouldReturnD () {
         Grader grader = new Grader();
