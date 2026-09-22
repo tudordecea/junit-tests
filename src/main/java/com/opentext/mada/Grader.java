@@ -20,6 +20,7 @@ public class Grader {
         else if (numberGrade < 90) {
             return 'B';
         }
+            
         else {
             return 'A';
         }
