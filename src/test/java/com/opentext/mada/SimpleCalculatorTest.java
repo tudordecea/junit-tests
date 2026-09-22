@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class SimpleCalculatorTest {
 
+    
     @Test
    public void twoPlusTwoShouldEqualFour() {
         SimpleCalculator calculator = new SimpleCalculator();
