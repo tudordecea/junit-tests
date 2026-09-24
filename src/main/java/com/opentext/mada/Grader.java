@@ -8,6 +8,7 @@ public class Grader {
         else if (numberGrade < 60) {
             return 'F';
         }
+            
         else if (numberGrade < 70) {
             return 'D';
         }
