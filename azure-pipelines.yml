@@ -33,7 +33,7 @@ steps:
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
-- task: octane-end-task@2
+- task: octane-end-task@2    
   inputs:
     OctaneServiceConnection: 'AMAzure'
     WorkspaceList: '38001'
